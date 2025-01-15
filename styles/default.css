@@ -7,14 +7,6 @@ html {
 }
 
 body {
-  margin: auto;
+  margin: 500px;
   padding: 0;
-}
-
-header {
-  margin: auto;
-}
-
-footer {
-  margin: auto;
 }
