@@ -155,7 +155,8 @@ p {
 
 /*FOOTER STYLES*/
 footer {
-  background-color: #d1ceb2;
+  background-color: #fce8dc;
+  box-shadow: 0 -4px 6px #241c1a;
   width: 100vw;
   position: absolute;
   bottom: 0;
@@ -170,13 +171,13 @@ footer ul {
 
 footer ul li {
   list-style-type: none;
-  color: #161508;
+  color: #241c1a;
   font-size: 1.25em;
 }
 
 footer ul li a {
   text-decoration: none;
-  color: #161508;
+  color: #241c1a;
 }
 
 footer ul li a:hover {
@@ -189,9 +190,9 @@ footer p {
 }
 
 footer p a {
-  color: #161508;
+  color: #241c1a;
 }
 
 footer p a:hover {
-  color: #878563;
+  color: #0a0605;
 }
