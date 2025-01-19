@@ -1,1 +1,158 @@
+/*COLOR PALLETTE
+  Background: #fce8dc
+  Font: #1c1918
+  Header: #d1ceb2
+  Hover: #878563
+*/
 
+html {
+  background-color: #fce8dc;
+  color: #1c1918;
+  font-family: "Economica", serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*FONT STYLES*/
+.economica-regular {
+  font-family: "Economica", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.economica-bold {
+  font-family: "Economica", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.economica-regular-italic {
+  font-family: "Economica", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.economica-bold-italic {
+  font-family: "Economica", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/*BODY STYLES*/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+  /*HEADER STYLES*/
+header {
+  background-color: #d1ceb2;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  margin: 0;
+}
+
+  .banner {
+    display: flex;
+    padding: 0;
+    margin: 0 50px;
+  }
+
+  #banner-text {
+    margin: 25px 0;
+  }
+
+  img {
+    margin: 15px 15px 0 0;
+  }
+
+  /*NAV STYLES*/
+
+  nav {
+    position: relative;
+  }
+
+  nav ul {
+    display: flex;
+    padding: 0;
+    margin: 35px 0;
+  }
+
+  nav ul li {
+    list-style-type: none;
+    padding: 0 10px;
+    margin: 0;
+    color: #161508;
+    font-size: 1.25em;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #161508;
+  }
+
+  nav ul li a:hover {
+    color: #878563;
+  }
+
+/*MAIN STYES*/
+main {
+  font-size: 1.75em;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  margin: 15px 200px;
+  padding: 0;
+}
+
+/*FOOTER STYLES*/
+footer {
+  background-color: #d1ceb2;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 15px 0;
+}
+
+footer ul li {
+  list-style-type: none;
+  color: #161508;
+  font-size: 1.25em;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #161508;
+}
+
+footer ul li a:hover {
+  color: #878563;
+}
+
+footer p {
+  font-size: 1.25em;
+  text-align: center;
+}
+
+footer p a {
+  color: #161508;
+}
+
+footer p a:hover {
+  color: #878563;
+}
