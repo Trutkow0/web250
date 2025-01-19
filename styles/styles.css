@@ -101,13 +101,12 @@ header {
   }
 
 #tail li {
-  width: 100px;
-  height: 100px;
+  width: 10vw;
+  height: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  writing-mode: vertical-rl;
   font-size: 1.25em;
   font-weight: bold;
 }
