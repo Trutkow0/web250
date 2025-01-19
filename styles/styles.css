@@ -2,7 +2,7 @@
   Background: #ebe3e1
   Font: #1c1918
   Dark Tail Stripe: #241c1a
-  Light font for dark tail stripe: #9c9391
+  Light font for dark tail stripe: #d9cdca
   Hover for dark tail stripe: #f2e7e4
   Light Tail Stripe: #d9cdca
   Dark font for light tail stripe: #241c1a
@@ -132,7 +132,7 @@ header {
 
 .tail-stripe-two a {
   text-decoration: none;
-  color: #9c9391;
+  color: #d9cdca;
 }
 
 .tail-stripe-two a:hover {
