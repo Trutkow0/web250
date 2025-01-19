@@ -1,5 +1,5 @@
 /*COLOR PALLETTE
-  Background: #fce8dc
+  Background: #ebe3e1
   Font: #1c1918
   Dark Tail Stripe: #241c1a
   Light font for dark tail stripe: #9c9391
@@ -7,12 +7,12 @@
   Light Tail Stripe: #d9cdca
   Dark font for light tail stripe: #241c1a
   Hover for light tail stripe: #6e544e
-  Header: #d1ceb2
-  Hover: #878563
+  Header/Footer: #d9cdca
+  Hover: #6e544e
 */
 
 html {
-  background-color: #fce8dc;
+  background-color: #ebe3e1;
   color: #1c1918;
   font-family: "Economica", serif;
   margin: 0;
@@ -56,7 +56,7 @@ body {
 
   /*HEADER STYLES*/
 header {
-  background-color: #fce8dc;
+  background-color: #d9cdca
   display: flex;
   justify-content: space-between;
   width: 100vw;
@@ -155,7 +155,7 @@ p {
 
 /*FOOTER STYLES*/
 footer {
-  background-color: #fce8dc;
+  background-color: #d9cdca;
   box-shadow: 0 -4px 6px #241c1a;
   width: 100vw;
   position: absolute;
