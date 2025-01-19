@@ -1,6 +1,12 @@
 /*COLOR PALLETTE
   Background: #fce8dc
   Font: #1c1918
+  Dark Tail Stripe: #241c1a
+  Light font for dark tail stripe: #9c9391
+  Hover for dark tail stripe: #f2e7e4
+  Light Tail Stripe: #d9cdca
+  Dark font for light tail stripe: #241c1a
+  Hover for light tail stripe: #0a0605
   Header: #d1ceb2
   Hover: #878563
 */
@@ -73,32 +79,60 @@ header {
 
   /*NAV STYLES*/
 
-  nav {
-    position: relative;
-  }
-
-  nav ul {
+   nav {
     display: flex;
-    padding: 0;
-    margin: 35px 0;
+    justify-content: center;
   }
 
-  nav ul li {
+  #tail {
     list-style-type: none;
-    padding: 0 10px;
+    padding: 0;
     margin: 0;
-    color: #161508;
-    font-size: 1.25em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: ;
+    border-radius: 60px;
+    overflow: hidden;
   }
 
-  nav ul li a {
+#tail li {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  writing-mode: vertical-rl;
+  font-size: 1.25em;
+}
+
+.tail-stripe-one {
+  background-color: #d9cdca;
+  color: #9c9391;
+}
+
+  .tail-stripe-one a {
     text-decoration: none;
-    color: #161508;
+    color: #241c1a;
   }
 
-  nav ul li a:hover {
-    color: #878563;
+  .tail-stripe-one a:hover {
+    color: #0a0605;
   }
+
+.tail-stripe-two {
+  background-color: #241c1a;
+}
+
+.tail-stripe-two a {
+  text-decoration: none;
+  color: #9c9391;
+}
+
+.tail-stripe-two a:hover {
+  color: #f2e7e4;
+}
 
 /*MAIN STYES*/
 main {
