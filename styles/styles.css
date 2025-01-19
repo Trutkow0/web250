@@ -6,7 +6,7 @@
   Hover for dark tail stripe: #f2e7e4
   Light Tail Stripe: #d9cdca
   Dark font for light tail stripe: #241c1a
-  Hover for light tail stripe: #362a27
+  Hover for light tail stripe: #6e544e
   Header: #d1ceb2
   Hover: #878563
 */
@@ -123,7 +123,7 @@ header {
   }
 
   .tail-stripe-one a:hover {
-    color: #362a27;
+    color: #6e544e;
   }
 
 .tail-stripe-two {
