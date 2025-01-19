@@ -92,7 +92,7 @@ header {
     #tail {
     list-style-type: none;
     padding: 0;
-    margin: 10px 0;
+    margin: 0;
     display: flex;
     flex-direction: row;
     align-items: center;
