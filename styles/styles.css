@@ -58,6 +58,7 @@ body {
 header {
   background-color: #d9cdca;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   width: 100vw;
   margin: 0;
