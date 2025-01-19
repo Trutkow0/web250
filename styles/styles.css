@@ -88,16 +88,16 @@ header {
     justify-content: center;
   }
 
-  #tail {
+    #tail {
     list-style-type: none;
     padding: 0;
-    margin: 0;
+    margin: 10px 0;
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: ;
     border-radius: 60px;
     overflow: hidden;
+    box-shadow: 0 6px 10px #241c1a;
   }
 
 #tail li {
