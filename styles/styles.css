@@ -56,11 +56,15 @@ body {
 
   /*HEADER STYLES*/
 header {
-  background-color: #d1ceb2;
+  background-color: #fce8dc;
   display: flex;
   justify-content: space-between;
   width: 100vw;
   margin: 0;
+  box-shadow: 0 4px 6px #241c1a;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
   .banner {
