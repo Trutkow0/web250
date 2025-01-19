@@ -56,7 +56,7 @@ body {
 
   /*HEADER STYLES*/
 header {
-  background-color: #d9cdca
+  background-color: #d9cdca;
   display: flex;
   justify-content: space-between;
   width: 100vw;
