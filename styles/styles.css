@@ -1,14 +1,14 @@
 /*COLOR PALLETTE
-  Background: #ebe3e1
-  Font: #1c1918
-  Dark Tail Stripe: #241c1a
-  Light font for dark tail stripe: #d9cdca
-  Hover for dark tail stripe: #f2e7e4
-  Light Tail Stripe: #d9cdca
-  Dark font for light tail stripe: #241c1a
-  Hover for light tail stripe: #6e544e
-  Header/Footer: #d9cdca
-  Hover: #6e544e
+  Main Background: #ebe3e1
+  Main Font: #1c1918
+  
+Dark Backgrounds: #241c1a
+  Light Fonts: #d9cdca
+  Light Hovers: #f2e7e4
+  
+Light Backgrounds: #d9cdca
+  Dark Fonts: #241c1a
+  Dark Hovers: #6e544e
 */
 
 html {
@@ -155,7 +155,7 @@ p {
 
 /*FOOTER STYLES*/
 footer {
-  background-color: #d9cdca;
+  background-color: #241c1a;
   box-shadow: 0 -4px 6px #241c1a;
   width: 100vw;
   position: absolute;
@@ -171,28 +171,28 @@ footer ul {
 
 footer ul li {
   list-style-type: none;
-  color: #241c1a;
   font-size: 1.25em;
 }
 
 footer ul li a {
   text-decoration: none;
-  color: #241c1a;
+  color: #d9cdca;
 }
 
 footer ul li a:hover {
-  color: #6e544e;
+  color: #f2e7e4;
 }
 
 footer p {
   font-size: 1.25em;
+  color: #d9cdca;
   text-align: center;
 }
 
 footer p a {
-  color: #241c1a;
+  color: #d9cdca;
 }
 
 footer p a:hover {
-  color: #6e544e;
+  color: #f2e7e4;
 }
