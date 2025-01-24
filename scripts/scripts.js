@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (!response.ok) {
           throw new Error('Could not load ${filePath}: ${respopnse.statusText}');
         }
-        return response.text()
+        return response.text();
       })
     .then((html) => {
       element.innerHTML = html; //Insert the content into the element
