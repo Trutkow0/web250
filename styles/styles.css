@@ -230,8 +230,8 @@ figcaption {
   background-color: #d9cdca;
   border-radius: 12px;
   box-shadow:
-    0px 10px 15px #d9cdca,
-    0px 4px 6px #241c1a;
+    0px 10px 15px #241c1a,
+    0px 4px 6px #d9cdca;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
