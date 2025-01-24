@@ -196,3 +196,31 @@ footer p a {
 footer p a:hover {
   color: #f2e7e4;
 }
+
+/*INTRODUCTION STYLES*/
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 0;
+}
+
+figcaption {
+  margin-top: 15px;
+}
+
+.intro {
+  margin: 50px 500px 0 500px;
+  padding: 0;
+}
+
+.intro li {
+  margin-top: 20px;
+}
+
+/*COURSE CONTRACT STYLES*/
+.contract {
+  margin: 50px 450px;
+}
