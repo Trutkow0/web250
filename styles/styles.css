@@ -235,8 +235,8 @@ figcaption {
 }
 
 .home:hover {
-  transform: translateY(-5px)
-    box-shadow: 0px 15px 25px #241c1a, 0px 8px 10px #d9cdca;
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 25px #241c1a, 0px 8px 10px #d9cdca;
 }
 
 .intro {
@@ -249,8 +249,8 @@ figcaption {
 }
 
 .intro:hover {
-  transform: translateY(-5px)
-    box-shadow: 0px 15px 25px #241c1a, 0px 8px 10px #d9cdca;
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 25px #241c1a, 0px 8px 10px #d9cdca;
 }
 
 .contract {
@@ -263,6 +263,6 @@ figcaption {
 }
 
 .contract:hover {
-  transform: translateY(-5px)
-    box-shadow: 0px 15px 25px #241c1a, 0px 8px 10px #d9cdca;
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 25px #241c1a, 0px 8px 10px #d9cdca;
 }
