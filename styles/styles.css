@@ -85,7 +85,7 @@ header {
   }
 
 .container {
-  dipslay: flex;
+  display: flex;
   height: 100vh;
 }
 
