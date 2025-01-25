@@ -91,7 +91,7 @@ header {
 
   /*NAV STYLES*/
   .sidebar {
-    width: 80px;
+    width: 175px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -99,11 +99,12 @@ header {
     overflow-y: auto;
     position: sticky;
     top: 0;
-    padding: 10px 0;
     box-shadow: 4px 0 8px #241c1a;
+    border-radius: 10% 10% 30% 30%;
   }
 
     #tail ul {
+    width: 100%;
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -162,6 +163,7 @@ main {
   padding: 20px;
   font-size: 1.75em;
   overflow-y: auto;
+  margin: 0 50px;
 }
 
 h2 {
