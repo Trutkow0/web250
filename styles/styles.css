@@ -1,6 +1,8 @@
 /*COLOR PALLETTE
   Main Background: #ebe3e1
   Main Font: #1c1918
+  Main Link: #451606
+  Main Hover: #993210
   
 Dark Backgrounds: #241c1a
   Light Fonts: #d9cdca
@@ -172,6 +174,15 @@ h2 {
   padding: 0;
 }
 
+.home-text a { 
+  text-decoration: none;
+  color: #451606;
+}
+
+.home-text a:hover {
+  color: #993210;
+}
+
 /*FOOTER STYLES*/
 footer {
   background-color: #241c1a;
@@ -240,6 +251,15 @@ figcaption {
 /*COURSE CONTRACT STYLES*/
 .contract-text {
   margin: 50px;
+}
+
+.contract-text a {
+  text-decoration: none;
+  color: #451606;
+}
+
+.contract-text a:hover {
+  color: #993210;
 }
 
 /*SECTION STYLES*/
