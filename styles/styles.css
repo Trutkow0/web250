@@ -188,6 +188,7 @@ footer {
   background-color: #241c1a;
   box-shadow: 0 -4px 6px #241c1a;
   width: 100vw;
+  height: 10vh;
 }
 
 footer ul {
