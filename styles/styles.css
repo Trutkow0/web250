@@ -225,7 +225,7 @@ figcaption {
 }
 
 /*SECTION STYLES*/
-.home {
+#home {
   margin: 50px 150px;
   padding: 25px;
   background-color: #d9cdca;
@@ -234,12 +234,12 @@ figcaption {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.home:hover {
+#home:hover {
   transform: translateY(-5px);
   box-shadow: 0px 15px 25px #241c1a, 0px 8px 10px #d9cdca;
 }
 
-.intro {
+#intro {
   margin: 50px 150px;
   padding: 25px;
   background-color: #d9cdca;
@@ -248,12 +248,12 @@ figcaption {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.intro:hover {
+#intro:hover {
   transform: translateY(-5px);
   box-shadow: 0px 15px 25px #241c1a, 0px 8px 10px #d9cdca;
 }
 
-.contract {
+#contract {
   margin: 50px 150px;
   padding: 25px;
   background-color: #d9cdca;
@@ -262,7 +262,7 @@ figcaption {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.contract:hover {
+#contract:hover {
   transform: translateY(-5px);
   box-shadow: 0px 15px 25px #241c1a, 0px 8px 10px #d9cdca;
 }
