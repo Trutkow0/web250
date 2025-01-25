@@ -82,36 +82,46 @@ header {
     margin: 15px 15px 0 0;
   }
 
-  /*NAV STYLES*/
+.container {
+  dipslay: flex;
+  height: 100vh;
+}
 
-   nav {
+  /*NAV STYLES*/
+  .sidebar {
+    width: 80px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    overflow-y: auto;
     position: sticky;
+    top: 0;
+    padding: 10px 0;
+    border-right: 2px solid #000;
+    box-shadow: 4px 0 8px #241c1a;
   }
 
-    #tail {
+    #tail ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
-    border-radius: 60px;
-    overflow: hidden;
-    box-shadow: 0 6px 10px #241c1a;
   }
 
 #tail li {
-  width: 10vw;
-  height: 50px;
+  width: 100%;
+  height: 80px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 1.25em;
   font-weight: bold;
+  border-radius: 50%;
+  transition: transform 0.2 ease, background-color 0.2s ease;
 }
 
 .tail-stripe-one {
@@ -126,6 +136,8 @@ header {
 
   .tail-stripe-one a:hover {
     color: #6e544e;
+    transform: scale(1.1);
+    cursor: pointer;
   }
 
 .tail-stripe-two {
@@ -139,11 +151,16 @@ header {
 
 .tail-stripe-two a:hover {
   color: #f2e7e4;
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 /*MAIN STYES*/
 main {
+  flex: 1;
+  padding: 20px;
   font-size: 1.75em;
+  overflow-y: auto;
 }
 
 h2 {
