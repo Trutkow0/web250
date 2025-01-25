@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
     fetch(filePath)
       .then((response) => {
         if (!response.ok) {
-          throw new Error('Could not load ${filePath}: ${respopnse.statusText}');
+          throw new Error(`Could not load ${filePath}: ${respopnse.statusText}`);
         }
         return response.text();
       })
