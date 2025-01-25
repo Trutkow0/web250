@@ -99,6 +99,7 @@ header {
     overflow-y: auto;
     position: sticky;
     top: 0;
+    margin-left: 10px;
     box-shadow: 4px 0 8px #241c1a;
     border-radius: 10% 10% 30% 30%;
   }
@@ -266,7 +267,7 @@ figcaption {
 
 /*SECTION STYLES*/
 #home {
-  margin: 50px 150px;
+  margin: 35px;
   padding: 25px;
   background-color: #d9cdca;
   border-radius: 12px;
@@ -280,7 +281,7 @@ figcaption {
 }
 
 #intro {
-  margin: 50px 150px;
+  margin: 35px;
   padding: 25px;
   background-color: #d9cdca;
   border-radius: 12px;
@@ -294,7 +295,7 @@ figcaption {
 }
 
 #contract {
-  margin: 50px 150px;
+  margin: 35px;
   padding: 25px;
   background-color: #d9cdca;
   border-radius: 12px;
