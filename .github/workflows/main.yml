@@ -36,7 +36,7 @@ jobs:
           fetch-depth: 0
 
           # Checkout a specific branch
-          ref: test-branch
+          ref: main
 
       # This is a composite GitHub Action (Linux runner) 
       # for deploying repository content to remote server
@@ -51,7 +51,7 @@ jobs:
           remote-password: ${{ secrets.FTP_PASSWORD_WEB250 }}
 
           # Path for specific folder on server for files deployment
-          remote-path: /test.net/deploy-test
+          remote-path: /var/www/html/web250
 
           # Port for SFTP access to server
-          remote-port: 221
+          remote-port: 22
