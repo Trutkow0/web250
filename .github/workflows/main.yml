@@ -48,10 +48,10 @@ jobs:
           # Credentials for SFTP access to server using GitHub secrets
           remote-host: ${{ secrets.FTP_HOST_WEB250 }}
           remote-user: ${{ secrets.FTP_USER_WEB250 }}
-          remote-password: ${{ secrets.FTP_PASSWORD_WEB250 }}
+          remote-password: ${{ secrets.FTP_KEY_WEB250 }}
 
           # Path for specific folder on server for files deployment
           remote-path: /var/www/html/web250
 
           # Port for SFTP access to server
-          remote-port: 22
+          remote-port: ${{ secrets.FTP_PORT }}
