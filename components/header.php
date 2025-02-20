@@ -1,0 +1,8 @@
+<header>
+	<div class="banner">
+		<img id="logo" src="images/TR_logo250_1.png" alt="Tenacious Raccoon logo" width="85" height="55">
+                <h1 id="banner-text">Timothy Rutkowski's Tenacious Raccoon | WEB250 </h1>
+        </div>
+</header>
+
+

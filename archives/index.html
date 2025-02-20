@@ -19,16 +19,16 @@
 </head>
   
 <body>
-        <div data-include="components/header.html"></div>
+        <?php include("components/header.php"); ?>
         <div class="container">
-                <div data-include="components/sidebar.html"></div>
+                <?php include("components/sidebar.php"); ?>
                         <main>
-                                <div data-include="components/home.html"></div>
-                                <div data-include="components/introduction.html"></div>
-                                <div data-include="components/contract.html"></div>
+                                <?php include("components/home.php"); ?>
+                                <?php include("components/introduction.php"); ?>
+                                <?php include("components/contract.php"); ?>
                         </main>
         </div>
-        <div data-include="components/footer.html"></div>
+        <?php include("components/footer.html"); ?>
         <script src="scripts/scripts.js"></script>
 </body>
 </html>
