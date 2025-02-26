@@ -16,19 +16,19 @@
         <link href="https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
         <!-- FONT END -->
         <script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>
+        <script src="scripts/scripts.js" defer></script>
 </head>
   
 <body>
-        <?php include("components/header.php"); ?>
+        <div data-include="archives/header.html"></div>
         <div class="container">
-                <?php include("components/sidebar.php"); ?>
+                <div data-include="archives/sidebar.html"></div>
                         <main>
-                                <?php include("components/home.php"); ?>
-                                <?php include("components/introduction.php"); ?>
-                                <?php include("components/contract.php"); ?>
+                                <div data-include="archives/home.html"></div>
+                                <div data-include="archives/introduction.html"></div>
+                                <div data-include="archives/contract.html"></div>
                         </main>
         </div>
-        <?php include("components/footer.html"); ?>
-        <script src="scripts/scripts.js"></script>
+        <div data-include="archives/footer.html"></div>
 </body>
 </html>
