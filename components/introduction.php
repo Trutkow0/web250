@@ -2,7 +2,7 @@
   <h2>Introduction</h2>
 
   <figure>
-    <img src="images/tree_me.jpg" alt="Tossing a baseball to self by a tree." height="450" width="300">
+    <img src="images/tree_me.png" alt="Tossing a baseball to self by a tree.">
     <figcaption>
       <i>Enjoying some baseball by a tree.</i>
     </figcaption>
