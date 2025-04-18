@@ -62,7 +62,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 100vw;
+  width: 100%;
   margin: 0;
   box-shadow: 0 4px 6px #241c1a;
   position: sticky;
@@ -72,22 +72,49 @@ header {
 
   .banner {
     display: flex;
-    padding: 0;
-    margin: 0 50px;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+  }
+
+  .banner-left {
+    display: flex;
+    align-items: flex-end;
   }
 
   #banner-text {
-    margin: 25px 0;
+    font-size: 1.5em;
+    margin: 0;
+    padding-bottom: 10px;
   }
 
   #logo {
-    margin: 15px 15px 0 0;
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
-.container {
-  display: flex;
-  height: 100vh;
-}
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+
+  .multipage-links {
+    text-align: right;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-right: 10px;
+  }
+
+  .multipage-links a {
+    color: #241c1a;
+    text-decoration: none;
+    margin: 0 5px;
+  }
+
+  .multipage-links a:hover {
+    color: #6e544e;
+  }
 
   /*NAV STYLES*/
   .sidebar {

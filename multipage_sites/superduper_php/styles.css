@@ -1,0 +1,61 @@
+body
+{
+	color: teal;
+	background-color: silver;
+	font-family: tahoma;
+}
+
+h1
+{
+	text-align: center;
+	font-family: Garamond;
+}
+
+header
+{
+	font-size: 200%;
+	text-decoration: none;
+	color: black;
+}
+
+
+
+a
+{
+	text-decoration: none;
+	font-weight:bold;
+	color: teal;
+}
+
+a:hover
+{
+	color: teal;
+}
+
+header, footer, .credits
+{
+  text-align: center;
+}
+
+img.one
+{
+    float: left;
+    margin: 10px;
+}
+
+img.two
+{
+    float: right;
+    margin: 10px;
+}
+
+.linkedimage
+{
+	border: 0px;
+}
+
+#tagline
+{
+	font-style:italic;
+	font-weight:bold;
+}
