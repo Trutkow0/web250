@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Tenacious Raccoon's Used Cars</title>
-    <link rel="stylesheet" href="styles/default.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <h1>Tenacious Raccoon's Used Cars</h1>
