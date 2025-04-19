@@ -5,10 +5,15 @@
                 	<h1 id="banner-text">Timothy Rutkowski's Tenacious Raccoon | WEB250 </h1>
 		</div>
 
-		<div class="multipage-links">
-			Multipage Sites:
-			<a href="http://50.116.33.156/web250/multipage_sites/superduper_static" target="_blank">Static</a> |
-			<a href="http://50.116.33.156/web250/multipage_sites/superduper_php" target="_blank">PHP</a>
+		<div class="external-sites-dropdown">
+			<button class="dropdown-button">External Sites &#9662;</button>
+			<div class="dropdown-content">
+				<a href="http://50.116.33.156/web250/carapp" target="_blank">Tenacious Racoon's Used Cars</a>
+				<a href="http://50.116.33.156/web250/multipage_sites/superduper_static" target="_blank">SuperDuper Static</a>
+				<a href="http://50.116.33.156/web250/multipage_sites/superduper_php" target="_blank">SuperDuper PHP</a>
+				<a href="http://50.116.33.156/web250/joyofphp/index.php" target="_blank">Joy of PHP</a>
+				<a href="http://50.116.33.156/web250/joyofphp/samsusedcars.html" target="_blank">Sam's Used Cars</a>
+			</div>
 		</div>
 	</div>
 </header>
