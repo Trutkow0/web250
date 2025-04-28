@@ -23,7 +23,7 @@ include 'config_db.php';
 </div>
 
     <header>
-        <h1>Tenacious Raccoon's Used Cars</h1>
+        <h1>Tenacious Raccoon's Used Cars 2</h1>
     </header>
 
 <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true): ?>
