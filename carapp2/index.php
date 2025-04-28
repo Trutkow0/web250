@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Tenacious Raccoon's Used Cars</title>
+    <title>Tenacious Raccoon's Used Cars 2</title>
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
