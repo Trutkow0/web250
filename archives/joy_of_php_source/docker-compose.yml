@@ -1,0 +1,32 @@
+version:  '3'
+
+services:   
+    mySQL:
+      image: mysql:5.7
+      environment:
+        - MYSQL_ROOT_PASSWORD=verysecret
+        - lower_case_table_names=1
+    joyphp:
+      build:  ./joyphp
+      volumes:
+        - ./joyphp/src:/var/www/html
+      ports:
+        - 80:80
+      environment:
+        XDEBUG_CONFIG: remote_host=host.docker.internal remote_port=9000 remote_enable=1
+      links:
+        - mySQL
+      depends_on:
+        - mySQL
+    phpmyadmin:
+      image: phpmyadmin/phpmyadmin
+      container_name: phpmyadmin
+      environment: 
+        - MYSQL_ROOT_PASSWORD=verysecret  
+        - PMA_HOST=mySQL
+      ports:
+        - 8080:80
+    
+
+  
+
