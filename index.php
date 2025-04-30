@@ -26,6 +26,7 @@
                                 <?php include("components/home.php"); ?>  
                                 <?php include("components/introduction.php"); ?>     
                                 <?php include("components/contract.php"); ?>
+				<?php include("components/fizzbuzz.php"); ?>
                         </main>
         </div>
         <?php include("components/footer.php"); ?>
