@@ -1,4 +1,4 @@
-<section id="intro">
+<section id="intro" class="intro">
   <h2>Introduction</h2>
 
   <figure>

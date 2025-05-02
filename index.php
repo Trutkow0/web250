@@ -18,6 +18,7 @@
         <script src="https://lint.page/kit/880bd5.js" crossorigin="anonymous"></script>
 </head>
 
+
 <body>
         <?php include("components/header.php"); ?>  
         <div class="container">
@@ -27,8 +28,11 @@
                                 <?php include("components/introduction.php"); ?>     
                                 <?php include("components/contract.php"); ?>
 				<?php include("components/fizzbuzz.php"); ?>
+				<?php include("components/introduction-form.php"); ?>
+				<?php include("components/introduction-output.php"); ?>
                         </main>
         </div>
         <?php include("components/footer.php"); ?>
+<script src="scripts/introduction.js" defer></script>
 </body>
 </html>
