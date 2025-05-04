@@ -1,3 +1,7 @@
+<?php
+$showIntroOutput = ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['personal']));
+?>
+
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
 

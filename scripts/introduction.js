@@ -11,6 +11,7 @@ if (imageUrl) {
   imageElement.style.display = "none";
 }
 
+
   // Set caption
   document.getElementById("output-caption").innerText = document.getElementById("caption").value;
 
@@ -33,4 +34,6 @@ if (imageUrl) {
 
   // Show the output section
   document.getElementById("intro-output").style.display = "block";
+  document.getElementById("intro-output").scrollIntoView({ behavior: "smooth" });
+
 });

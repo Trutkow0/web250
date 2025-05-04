@@ -416,3 +416,8 @@ figcaption {
     margin-top: 20px;
     padding-left: 20px;
   }
+
+/*INTRODUCTION FORM STYLES*/
+  #intro-output {
+    display: none;
+  }

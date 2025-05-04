@@ -1,7 +1,7 @@
-<section id="intro-output" class="intro" style="display:none;">
+<section id="intro-output" class="intro" style="display: none;">
   <h2>Introduction</h2>
   <figure>
-   <img id="output-image" src="../images/tree_me.png" alt="User photo" style="display: none;">
+   <img id="output-image" src="..." alt="User photo" style="display: none;">
     <figcaption><i id="output-caption"></i></figcaption>
   </figure>
   <ul class="intro-text">
